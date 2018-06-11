@@ -1,3 +1,5 @@
+//@ts-check
+
 const Tone = require("tone");
 const nodeDefs = require("./lib/nodeDefs")(Tone);
 const NodePool = require("./lib/nodePool");
@@ -115,7 +117,7 @@ function FX() {
   //     console.log(effectPools.map(n => n._getSize()))
   // }
 
-  this.play = function(settings = defaults) {
+  this.play = function(settings) {
     const sets = settings || {};
     const defs = defaults;
 
