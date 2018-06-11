@@ -9,7 +9,7 @@
   "author": "Andy Hall",
   "license": "MIT",
   "dependencies": {
-    "tone": "^0.8.0"
+    "tone": "^0.12.80"
   },
   "devDependencies": {}
 }
