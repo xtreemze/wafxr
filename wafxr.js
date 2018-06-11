@@ -1,5 +1,3 @@
-//@ts-check
-
 const Tone = require("tone");
 const nodeDefs = require("./lib/nodeDefs")(Tone);
 const NodePool = require("./lib/nodePool");
